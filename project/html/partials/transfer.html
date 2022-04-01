@@ -1,0 +1,25 @@
+<form action="/api/transfer" method="POST" class="login-form">
+    <h3>Logged in as {{user['first_name']}} {{user['last_name']}}</h3>
+    <h3>Transfer money to a bank account</h3>
+
+    <p>
+        <label>Sum to transfer</label><br/>
+        <input name="sum" type="number"/>
+    </p>
+
+    <p>
+        <label>Recipient bank account number</label><br/>
+        <input name="recipient"/>
+    </p>
+
+    <p>
+        <label>PIN Number</label><br/>
+        <input name="pin" type="password"/>
+    </p>
+
+    <p>
+        <input type="submit" value="Transfer" class="button"/>
+    </p>
+
+
+</form>

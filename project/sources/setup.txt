@@ -1,0 +1,15 @@
+# Instructions d'installation du projet
+
+## Dépendances du projet
+
+- python3
+
+## Dépendances python
+
+- flask pyjwt sqlite3
+
+## Commandes nécessaires pour l'installation sur Debian/Ubuntu
+
+- sudo apt-get install python3 python3-pip
+
+- pip3 install flask pyjwt pysqlite3

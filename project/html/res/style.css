@@ -1,0 +1,96 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#error {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(221, 55, 55);
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#message {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: rgb(97, 223, 75);
+    color: black;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+#links {
+    height: 1.5rem;
+    background-color: #000;
+}
+
+#links a {
+    color: white;
+    margin-left: 1rem;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#header {
+    padding: 1rem;
+    box-shadow: 1px 1px 1px 1px #00000099;
+    z-index: 2;
+}
+
+#header img {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+#header i {
+    line-height: 1rem;
+    margin-left: 1rem;
+}
+
+#footer {
+    background-color: #888888;
+    color: #181818;
+    height: 10rem;
+    z-index: 2;
+}
+
+#footer div {
+    padding: 1rem;
+}
+
+.card {
+    padding: 1rem;
+    width: 60rem;
+    display: flex;
+    margin: auto;
+}
+
+.banner {
+    width: 40rem;
+    box-shadow: 1px 1px 1px 1px #00000099;
+}
+
+.card-text {
+    padding: 1rem;
+}
+
+button, .button {
+    margin: 2rem 0;
+    padding: 0.5rem 1rem;
+}
+
+.login-form {
+    border-radius: 1rem;
+    padding: 3rem 0;
+    width: 20rem;
+    margin: 5rem auto;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #00000099;
+}
